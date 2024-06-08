@@ -11,4 +11,4 @@ Aplicação desenvolvida como atividade MAPA da disciplina programação fronten
 
 Após anos codificando com frameworks e bibliotecas, esse foi um desafio que me fez relembrar meus conhecimentos de HTML, CSS e métodos Vanilla Javascript.
 
-Se você quiser ver o resultado online, acesse este [link de implantação]().
+Se você quiser ver o resultado online, acesse este [link de implantação](https://barbecuecalculator.netlify.app/).
