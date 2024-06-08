@@ -7,20 +7,52 @@
   <title>Calculadora de Churrasco</title>
 
   <link rel="stylesheet" href="assets/styles/style.css">
+  <link rel="shortcut icon" href="assets/images/favicon.webp" type="image/x-icon">
 </head>
 
 <body>
-
   <header>
     <div>
-      <img src={logo} alt="unicesumar logo" />
+      <img src="assets/images/logo.png" alt="unicesumar logo" />
       <h1>
         Atividade MAPA - Calculadora de Churrasco
       </h1>
     </div>
   </header>
 
-  <main></main>
+  <main>
+    <div>
+      <h2>Calculadora de Churrasco</h2>
+      <div class="image">
+        <img class="gif" src="assets/images/Barbecue-GIF.gif"></img>
+      </div>
+      <form id="form">
+        <div>
+          <label for="men">Homens:</label>
+          <input type="number" id="men" name="men" min="0" value="0" />
+        </div>
+        <div>
+          <label for="women">Mulheres:</label>
+          <input type="number" id="women" name="women" min="0" value="0" />
+        </div>
+        <div>
+          <label for="children">Crianças:</label>
+          <input type="number" id="children" name="children" min="0" value="0" />
+        </div>
+        <div>
+          <button type="submit" id="calculate">Calcular</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="result">
+      <h2>Resultado</h2>
+      <p>Quantidade de itens a serem comprados:</p>
+      <div id="result">
+        <p>Por favor, informe a quantidade de homens, mulheres e crianças.</p>
+      </div>
+    </div>
+  </main>
 
   <footer>
     <div>
